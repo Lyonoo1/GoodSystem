@@ -24,6 +24,12 @@ export const routes = [
         meta: { title: '仪表盘', icon: 'DataBoard' },
       },
       {
+        path: 'key-project-customer',
+        name: 'KeyProjectCustomer',
+        component: () => import('@/pages/KeyProjectCustomer.vue'),
+        meta: { title: '重点项目获客管理', icon: 'Briefcase' },
+      },
+      {
         path: 'examples',
         name: 'Examples',
         redirect: '/examples/list',
